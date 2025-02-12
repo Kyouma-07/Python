@@ -3,7 +3,6 @@ import string
 class  Armstrong:
     def __init__(self):
         pass
-
     @staticmethod
     def is_armstrong( x: int) -> string:
         count = int(math.log10(x) + 1)
