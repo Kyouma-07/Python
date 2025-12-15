@@ -1,2 +1,2 @@
-print("Hello world 3")
-print("Hello world 789")
+print("Hello world")
+print("Hello world 123")
