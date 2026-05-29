@@ -6,13 +6,13 @@ class  Armstrong:
     @staticmethod
     def is_armstrong( x: int) -> string:
         count = int(math.log10(x) + 1)
-        totalsum = 0
+        totalSum = 0
         orgnumber =  x
         while orgnumber != 0:
-            totalsum = totalsum + ( (orgnumber % 10 )** count)
+            totalSum = totalSum + ( (orgnumber % 10 )** count)
             orgnumber = orgnumber//10
 
-        if totalsum == n:
+        if totalSum == n:
             return  str (n) + " is an armstrong number"
         else:
             return str(n) + " is not an armstrong number"
